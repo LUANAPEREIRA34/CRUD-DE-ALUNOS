@@ -1,0 +1,103 @@
+body {
+background: -o-linear-gradient(135deg,#d4f1f4,#fefefe);
+font-family: 'Poppins',sans-serif;
+color: #333;
+}
+
+.titulo {
+font-weight: 700;
+color: #0077b6;
+text-shadow: 1px 1px 2px #aad;
+}
+
+.bg-gradient-primary {
+background: linear-gradient(90deg,#0077b6,#0096c7);
+}
+
+.bg-gradient-dark {
+background: linear-gradient(90deg,#343a40,#495057);
+}
+
+.sombra-card {
+box-shadow: 0 4px 10px rgba(0, 0,0, 0.15);
+border-radius: 12px;
+}
+
+.table-houver tbody tr:houver {
+    background-color: #e3f2d4;
+}
+
+.btn-sucess {
+background-color: #00b4d8;
+border-color: #0096c7;
+}
+
+.btn-sucess:hover {
+background-color: #0096c7;
+}
+
+.bnt-warning {
+background-color: #ffd166;
+border: none;
+}
+
+.btn-warning:hover {
+background-color: #f4a261;
+}
+
+.btn-danger {
+background-color: #ef476f;
+border: none;
+}
+
+.btn-danger:hover {
+background-color: #d62839;
+}
+
+.card-header {
+font-weight: 600;
+font-size: 1.1rem;
+}
+
+input.form-control {
+border-radius: 8px;
+border: 1px solid #00b4d8;
+}
+
+input.form-control:focus {
+border-color: #00b4d8;
+box-shadow: 0  0 5px #00b4d8;
+}
+
+#busca {
+    border: 2px solid #00b4d8;
+border-radius: 30px;
+padding: 10px 20px;
+transition: all 0.3s ease;
+}
+
+#busca:focus { 
+border-color: #0077b6;
+box-shadow: 0 0 8px #0077b6;
+outline:none;
+}
+
+.alerta {
+    animation: slideDown 0.5s ease forwards;
+opacity: 0.95;
+border-radius: 10px;
+font-weight: 500;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-20px);
+    opacity: 0;
+    }
+to {
+transform: translateY(0);
+ opacity: 1;
+}
+}
+
+
